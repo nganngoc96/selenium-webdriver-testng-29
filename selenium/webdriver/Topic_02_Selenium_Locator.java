@@ -46,7 +46,7 @@ public class Topic_02_Selenium_Locator {
     }
     @Test
     public void TC_05_Linktext() {
-        driver.findElement(By.linkText("shipping-returns"));
+        driver.findElement(By.linkText("shipping returns"));
     }
     @Test
     public void TC_06_Partial_Linktext() {
